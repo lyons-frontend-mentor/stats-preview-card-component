@@ -31,17 +31,72 @@
       }
     </style>
   </head>
-  <body>
-    <div class="m-4 mt-2"></div>
-    Get insights that help your business grow. Discover the benefits of data
-    analytics and make better decisions regarding revenue, customer experience,
-    and overall efficiency. 10k+ companies 314 templates 12m+ queries
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+  <body
+    class="flex min-h-screen items-center justify-center bg-mainbg p-6 font-inter text-pcolor"
+  >
+    <main
+      class="flex max-w-sm flex-col overflow-hidden rounded-lg bg-cardbg drop-shadow-[0_20px_20px_-10px_hsla(223,28%,13%,0.2)] lg:max-w-[1110px] lg:flex-row-reverse"
+    >
+      <picture class="bg-accent lg:min-h-full lg:max-w-[540px]">
+        <source
+          media="(min-width:648px)"
+          srcset="./images/image-header-desktop.jpg"
+        />
+        <img
+          src="./images/image-header-mobile.jpg"
+          alt=""
+          class="mix-blend-multiply"
+        />
+      </picture>
+      <!-- Wrapper of main content for padding separate from image -->
+      <div
+        class="flex grow flex-col p-8 pt-10 lg:w-1/2 lg:p-14 lg:pr-24 xl:p-16 xl:pr-28"
+      >
+        <h1
+          class="text-center font-inter text-3xl font-bold text-white lg:text-left"
+        >
+          Get
+          <span class="text-accent"> insights </span>
+          that help your business grow.
+        </h1>
+        <p
+          class="mt-4 text-center font-inter leading-7 text-pcolor lg:mt-6 lg:text-left"
+        >
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <ul
+          class="lg:mt-13 mt-10 flex grow flex-col gap-6 lg:flex-row lg:items-end lg:gap-16 lg:justify-self-end xl:mt-20"
+        >
+          <li class="text-center lg:text-left">
+            <span class="text-2xl font-bold text-white"> 10k+ </span>
+            <br />
+            <span
+              class="font-lexend text-xs uppercase tracking-widest text-hcolor"
+            >
+              companies
+            </span>
+          </li>
+          <li class="text-center lg:text-left">
+            <span class="text-2xl font-bold text-white"> 314 </span>
+            <br />
+            <span
+              class="font-lexend text-xs uppercase tracking-widest text-hcolor"
+            >
+              templates
+            </span>
+          </li>
+          <li class="text-center lg:text-left">
+            <span class="text-2xl font-bold text-white"> 12M+ </span>
+            <br />
+            <span
+              class="font-lexend text-xs uppercase tracking-widest text-hcolor"
+            >
+              queries
+            </span>
+          </li>
+        </ul>
+      </div>
+    </main>
   </body>
 </html>

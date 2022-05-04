@@ -11,7 +11,7 @@ module.exports = {
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
-        lexand: ["Lexand Deca", "sans-serif"]
+        lexend: ["Lexend Deca", "sans-serif"]
       }
     },
   },
